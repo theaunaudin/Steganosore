@@ -1,4 +1,5 @@
 import string
+string.printable = string.printable.replace("\r","à")
 
 def chiffre_cesar_nombre(liste_a_dechiffrer, clef):
     liste_dechiffree=[]
